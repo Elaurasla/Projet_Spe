@@ -8,7 +8,7 @@ import pickle
 
 
 # =============== Extraction de données Reddit et Arxiv =============
-
+"""
 # =============== REDDIT ===============
 import praw
 
@@ -158,7 +158,7 @@ del corpus
 with open("chaine_longue.pkl", "wb") as f:
     pickle.dump(longueChaineDeCaracteres, f)
 
-
+"""
 
 
 # =============== Charger les documents enregistrés ===============

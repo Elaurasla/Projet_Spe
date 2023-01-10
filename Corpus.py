@@ -2,7 +2,7 @@
 
 from Classes import Author
 
-# =============== 2.7 : CLASSE CORPUS ===============
+# =============== CLASSE CORPUS ===============
 class Corpus:
     def __init__(self, nom):
         self.nom = nom
@@ -22,7 +22,7 @@ class Corpus:
         self.ndoc += 1
         self.id2doc[self.ndoc] = doc
 
-# =============== 2.8 : REPRESENTATION ===============
+# =============== REPRESENTATION ===============
     def show(self, n_docs=-1, tri="abc"):
         docs = list(self.id2doc.values())
         if tri == "abc":  # Tri alphabétique
